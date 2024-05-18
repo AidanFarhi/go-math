@@ -8,6 +8,7 @@ type Number interface {
 }
 
 // Add adds two numbers together and returns the sum
+// Uses another package.
 func Add[T Number](x, y T) T {
 	return x + y
 }
