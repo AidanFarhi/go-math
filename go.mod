@@ -1,4 +1,4 @@
-module github.com/AidanFarhi/go-math
+module github.com/AidanFarhi/go-math/v2
 
 go 1.22.0
 
