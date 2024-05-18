@@ -7,7 +7,7 @@ type Number interface {
 	constraints.Integer | constraints.Float
 }
 
-// Add adds two numbers together
+// Add adds two numbers together and returns the sum
 func Add[T Number](x, y T) T {
 	return x + y
 }
